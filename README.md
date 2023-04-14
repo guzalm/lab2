@@ -1,1 +1,3 @@
-1) Here I created new class called MyArrayList that implements the List interface
+2) Here implementation of a private instance variable of type Object[] 
+in a class MyArrayList. Also, there is new 
+variable size which is equal to 0 now
