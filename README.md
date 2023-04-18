@@ -1,2 +1,2 @@
-Here I just changed "Object element" to "T"
-, because that is our element from instructions
+And now, I created method T get 
+which works by returning the element at the specified index.

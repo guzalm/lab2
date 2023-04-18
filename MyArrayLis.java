@@ -15,4 +15,8 @@ public class MyArrayLis<T> implements MyList<T>{
         elements[size] = element;
         size++;
     }
+
+    public T get(int index) {
+        return (T) elements[index];
+    }
 }
