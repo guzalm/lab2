@@ -1,2 +1,5 @@
-Here was added decrement size--. Its option is decrease size variable by 1.
-And next line is our return, it returns the element that was removed.
+Also, I added throw exception
+ as in previous method, which checks
+in same way if index is less than
+zero or more than size, project 
+gives IndexOutOfBoundsException.
