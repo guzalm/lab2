@@ -3,7 +3,7 @@ public class MyLinkedList<E> {
         E element;
         Node next;
         Node previous;
-        public Node(E element, Node prev, Node next) {
+        public Node(E element, Node previous, Node next) {
             this.element = element;
             this.previous = previous;
             this.next = next;
