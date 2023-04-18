@@ -1,1 +1,2 @@
-In Main class first of all we check the size of list which is equal to 10. After I added 7 more elements by .add method, and after when I checked size, It increased by 7(to17). Furthermore, I showed how  using .remove method by index of element can decrease the number of elements in this list, it became 16 
+System.out.println(arrLis.indexOf(1)) gives answer 9, it means that 
+index of element 3 which i added in main is 9. Already we had 9 elements from 1 to 10 and 9-1=8 so index of element"10" is equals to 8. Next, first added element in Main class was "1" and of course, 8+1=9. It means, index rose by 1.

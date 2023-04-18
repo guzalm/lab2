@@ -14,5 +14,6 @@ public class Main {
         System.out.println(arrLis.size());
         arrLis.remove(5);
         System.out.println(arrLis.size());
+        System.out.println(arrLis.indexOf(1));
     }
 }
