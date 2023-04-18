@@ -1,24 +1,26 @@
+import java.util.Arrays;
 
-public class MyArrayLis<T> implements MyList<T>{
+public class MyArrayList<T>{
     private Object[] elements;
     private int size;
 
     public MyArrayList() {
         elements = new Object[10];
-        size = 0;
+        size = 10;
     }
 
-    public void add(T) {
+    public void add(T element) {
         if (size == elements.length) {
             elements = Arrays.copyOf(elements, 2 * elements.length);
         }
+
         elements[size] = element;
         size++;
     }
 
     public T get(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexBoundsException("Index is out of bounds: " + index);
+            throw new IndexOutOfBoundsException("Index is out of bounds: " + index);
         }
         return (T) elements[index];
     }
@@ -54,6 +56,10 @@ public class MyArrayLis<T> implements MyList<T>{
             }
         }
         return -1;
+    }
+
+    public void sort() {
+        Arrays.sort(elements, 0, size);
     }
 
 }

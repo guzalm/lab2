@@ -1,3 +1,1 @@
-There is one more method same as int indexOf.It is lastIndexOf. Here 
-equals method is used to check for equality between the elements
-.If the element is found in the list, the method returns i. If not, returns -1 as in previous method.
+In Main class first of all we check the size of list which is equal to 10. After I added 7 more elements by .add method, and after when I checked size, It increased by 7(to17). Furthermore, I showed how  using .remove method by index of element can decrease the number of elements in this list, it became 16 
