@@ -34,4 +34,8 @@ public class MyArrayLis<T> implements MyList<T>{
         size--;
         return removedElement;
     }
+    public int size() {
+        return size;
+    }
+
 }
