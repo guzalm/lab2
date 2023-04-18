@@ -3,12 +3,14 @@ public class MyLinkedList<E> {
         E element;
         Node next;
         Node previous;
+
         public Node(E element, Node previous, Node next) {
             this.element = element;
             this.previous = previous;
             this.next = next;
         }
     }
+
     private Node head;
     private Node tail;
     private int size;
@@ -18,7 +20,8 @@ public class MyLinkedList<E> {
         tail = null;
         size = 0;
     }
-    public boolean add(E element){
+
+    public boolean add(E element) {
         Node newNode = new Node(element, null, tail);
         if (size == 0) {
             head = newNode;
@@ -30,6 +33,24 @@ public class MyLinkedList<E> {
         return true;
     }
 
+    public E get(int index) {
+        Node current;
+        if (index < size / 2) {
+            current = head;
+            for (int i = 0; i < index; i++) {
+                current = current.next;
+            }
+        } else {
+            current = tail;
+            for (int i = size - 1; i > index; i--) {
+                current = current.previous;
+            }
+        }
 
+        return current.element;
+    }
 }
+
+
+
 
