@@ -12,6 +12,7 @@ public class MyArrayLis<T> implements MyList<T>{
         if (size == elements.length) {
             elements = Arrays.copyOf(elements, 2 * elements.length);
         }
-
+        elements[size] = element;
+        size++;
     }
 }
