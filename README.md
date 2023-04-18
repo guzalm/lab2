@@ -1,3 +1,6 @@
-Here I add 10 in line elements = new Object[10]
-I choose it  as a default capacity, and guess enough
- to use as memory for array
+There I created class add by
+method by first checking if the size of array is large enough
+"if (size == elements.length)" 
+to accommodate the new element. And if it is not, new array
+called elements will double the size of
+the original array, copy over the elements from original array. 

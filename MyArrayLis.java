@@ -7,4 +7,11 @@ public class MyArrayLis<T> implements MyList<T>{
         elements = new Object[10];
         size = 0;
     }
+
+    public void add(Object element) {
+        if (size == elements.length) {
+            elements = Arrays.copyOf(elements, 2 * elements.length);
+        }
+
+    }
 }
