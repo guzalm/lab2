@@ -1,7 +1,1 @@
-this method is used to retrieve an
-element from the linked list at a
-specific index. By first determining 
-whether the index is closer
-to the head or the tail of the list. 
-If the index is less than half the size of the list, the method starts iterating from the head of the list,
-otherwise, it starts from the tail.
+next method is remove. First part of method is like in get method. There are checking num for where it is closer (head or tail). According to this it starts iterating.Then it checks "current" location of element. Is it equal to head or tail. After removing element, it declares lists size by one 

@@ -49,6 +49,36 @@ public class MyLinkedList<E> {
 
         return current.element;
     }
+    public E remove(int index){
+        Node current;
+        if (index < size / 2) {
+            current = head;
+            for (int i = 0; i < index; i++) {
+                current = current.next;
+            }
+        } else {
+            current = tail;
+            for (int i = size - 1; i > index; i--) {
+                current = current.previous;
+            }
+        }
+
+        if (current == head) {
+            head = current.next;
+        } else {
+            current.previous.next = current.next;
+        }
+
+        if (current == tail) {
+            tail = current.previous;
+        } else {
+            current.next.previous = current.previous;
+        }
+
+        size--;
+        return current.element;
+    }
+
 }
 
 
