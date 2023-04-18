@@ -9,5 +9,10 @@ public class MyLinkedList<E> {
             this.next = next;
         }
     }
+    private Node head;
+    private Node tail;
+    private int size;
+
+
 }
 
