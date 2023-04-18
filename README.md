@@ -1,3 +1,1 @@
-Start of "MyLinkedList"
-Here I created new class MyLinkedList, which
- implements the MyList interface.
+I defined a private class called Node that contains an element of type E and references to the next and previous nodes in the list.
