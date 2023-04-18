@@ -18,6 +18,17 @@ public class MyLinkedList<E> {
         tail = null;
         size = 0;
     }
+    public boolean add(E element){
+        Node newNode = new Node(element, null, tail);
+        if (size == 0) {
+            head = newNode;
+        } else {
+            tail.next = newNode;
+        }
+        tail = newNode;
+        size++;
+        return true;
+    }
 
 
 }
