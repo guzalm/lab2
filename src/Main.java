@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
@@ -15,5 +16,6 @@ public class Main {
         arrLis.remove(5);
         System.out.println(arrLis.size());
         System.out.println(arrLis.indexOf(1));
+        System.out.println(arrLis.lastIndexOf(1));
     }
 }

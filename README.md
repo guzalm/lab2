@@ -1,2 +1,3 @@
-System.out.println(arrLis.indexOf(1)) gives answer 9, it means that 
-index of element 3 which i added in main is 9. Already we had 9 elements from 1 to 10 and 9-1=8 so index of element"10" is equals to 8. Next, first added element in Main class was "1" and of course, 8+1=9. It means, index rose by 1.
+Start of "MyLinkedList"
+Here I created new class MyLinkedList, which
+ implements the MyList interface.
