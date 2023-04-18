@@ -22,4 +22,11 @@ public class MyArrayLis<T> implements MyList<T>{
         }
         return (T) elements[index];
     }
+
+    public T remove(int index) {
+        T removedElement = (T) elements[index];
+        for (int i = index; i < size - 1; i++) {
+            elements[i] = elements[i + 1];
+        }
+    }
 }
