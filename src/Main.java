@@ -27,6 +27,9 @@ public class Main {
         string.add("BDA");
         string.add("DJ");
         string.add("IT");
-        System.out.println(string.get(1));
+        System.out.println("First faculty: "+string.get(1));
+        System.out.println("Faculties:" + string.size());
+
+
     }
 }

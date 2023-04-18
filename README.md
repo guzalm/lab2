@@ -1,2 +1,1 @@
-Now I am checking my code by running in Main. First of all, I added 5 various info(names of faculties) to empty list by method .add.
-Then by .get method I typed index of one of them, it shows data(name of faculty).
+Then due to .size() method we get that size of list is 5, because before I added here 5 faculties.
