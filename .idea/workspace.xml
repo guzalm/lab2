@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95f47a-1461-403e-84af-795447239b67" name="Changes" comment="26." />
+    <list default="true" id="3d95f47a-1461-403e-84af-795447239b67" name="Changes" comment="28.">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
       <workItem from="1681490277787" duration="2775000" />
       <workItem from="1681689523800" duration="608000" />
       <workItem from="1681713931785" duration="321000" />
-      <workItem from="1681783585584" duration="15155000" />
+      <workItem from="1681783585584" duration="15463000" />
     </task>
     <task id="LOCAL-00001" summary="1.">
       <created>1681493543077</created>
@@ -267,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681843157097</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="28.">
+      <created>1681843303081</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681843303081</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +294,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1." />
     <MESSAGE value="2." />
     <MESSAGE value="3." />
     <MESSAGE value="4." />
@@ -310,6 +318,7 @@
     <MESSAGE value="24." />
     <MESSAGE value="25." />
     <MESSAGE value="26." />
-    <option name="LAST_COMMIT_MESSAGE" value="26." />
+    <MESSAGE value="28." />
+    <option name="LAST_COMMIT_MESSAGE" value="28." />
   </component>
 </project>

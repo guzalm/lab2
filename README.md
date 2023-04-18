@@ -1,1 +1,2 @@
-Last step is implementing size method, which returns just size of list before/after adding or removing some elements.
+Now I am checking my code by running in Main. First of all, I added 5 various info(names of faculties) to empty list by method .add.
+Then by .get method I typed index of one of them, it shows data(name of faculty).

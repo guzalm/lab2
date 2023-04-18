@@ -17,5 +17,16 @@ public class Main {
         System.out.println(arrLis.size());
         System.out.println(arrLis.indexOf(1));
         System.out.println(arrLis.lastIndexOf(1));
+        System.out.println("End of checking MyArrayList class");
+
+        // next all items are about MyLinkedList class only
+
+        MyLinkedList<String> string = new MyLinkedList<>();
+        string.add("SE");
+        string.add("MT");
+        string.add("BDA");
+        string.add("DJ");
+        string.add("IT");
+        System.out.println(string.get(1));
     }
 }
