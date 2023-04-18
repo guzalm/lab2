@@ -17,6 +17,9 @@ public class MyArrayLis<T> implements MyList<T>{
     }
 
     public T get(int index) {
+        if (index < 0 || index >= size) {
+            throw new IndexBoundsException("Index is out of bounds: " + index);
+        }
         return (T) elements[index];
     }
 }

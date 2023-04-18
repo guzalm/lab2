@@ -1,2 +1,4 @@
-And now, I created method T get 
-which works by returning the element at the specified index.
+then I preferred to add throw exception.
+Like if index gives wrong as less than zero
+or more than size,program will throw IndexBoundsException
+ which says that index is out of bound
