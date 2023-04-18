@@ -78,6 +78,9 @@ public class MyLinkedList<E> {
         size--;
         return current.element;
     }
+    public int size() {
+        return size;
+    }
 
 }
 
