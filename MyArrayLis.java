@@ -8,7 +8,7 @@ public class MyArrayLis<T> implements MyList<T>{
         size = 0;
     }
 
-    public void add(Object element) {
+    public void add(T) {
         if (size == elements.length) {
             elements = Arrays.copyOf(elements, 2 * elements.length);
         }
