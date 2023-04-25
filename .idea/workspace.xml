@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ass2ads:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d95f47a-1461-403e-84af-795447239b67" name="Changes" comment="29.">
+    <list default="true" id="3d95f47a-1461-403e-84af-795447239b67" name="Changes" comment="30.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/Main.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,11 +51,16 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/Downloads/RegistrationApp2/src/main/resources/com/example/registrationapp2/ass2ads&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -57,7 +75,14 @@
       <workItem from="1681490277787" duration="2775000" />
       <workItem from="1681689523800" duration="608000" />
       <workItem from="1681713931785" duration="321000" />
-      <workItem from="1681783585584" duration="15913000" />
+      <workItem from="1681783585584" duration="18219000" />
+      <workItem from="1681900587305" duration="901000" />
+      <workItem from="1681916047959" duration="721000" />
+      <workItem from="1681956841094" duration="56000" />
+      <workItem from="1682341345718" duration="1852000" />
+      <workItem from="1682347836270" duration="1470000" />
+      <workItem from="1682388536817" duration="2401000" />
+      <workItem from="1682391283789" duration="431000" />
     </task>
     <task id="LOCAL-00001" summary="1.">
       <created>1681493543077</created>
@@ -283,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681843866463</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="30.">
+      <created>1681844169816</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681844169816</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +333,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3." />
     <MESSAGE value="4." />
     <MESSAGE value="5." />
     <MESSAGE value="7." />
@@ -326,6 +357,7 @@
     <MESSAGE value="26." />
     <MESSAGE value="28." />
     <MESSAGE value="29." />
-    <option name="LAST_COMMIT_MESSAGE" value="29." />
+    <MESSAGE value="30." />
+    <option name="LAST_COMMIT_MESSAGE" value="30." />
   </component>
 </project>

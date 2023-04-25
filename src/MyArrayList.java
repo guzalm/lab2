@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
-public class MyArrayList<T>{
-    private Object[] elements;
+public class MyArrayList<T> {
+    public int arrList;
+    Object[] elements;
     private int size;
 
     public MyArrayList() {
@@ -36,6 +37,7 @@ public class MyArrayList<T>{
         size--;
         return removedElement;
     }
+
     public int size() {
         return size;
     }
@@ -58,8 +60,12 @@ public class MyArrayList<T>{
         return -1;
     }
 
-    public void sort() {
-        Arrays.sort(elements, 0, size);
-    }
-
 }
+
+
+
+
+
+
+
+

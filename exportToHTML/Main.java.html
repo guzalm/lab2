@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java.sql.SQLOutput</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">java.util.ArrayList</span><span class="s0">;</span>
+<span class="s0">public class </span><span class="s1">Main {</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">MyArrayList arrLis=</span><span class="s0">new </span><span class="s1">MyArrayList()</span><span class="s0">;</span>
+        <span class="s1">System.out.println(arrLis.size())</span><span class="s0">;</span>
+        <span class="s1">arrLis.add(</span><span class="s2">1</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">arrLis.add(</span><span class="s2">2</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">arrLis.add(</span><span class="s2">3</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">arrLis.add(</span><span class="s2">4</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">arrLis.add(</span><span class="s2">5</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">arrLis.add(</span><span class="s2">6</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">arrLis.add(</span><span class="s2">7</span><span class="s1">)</span><span class="s0">;</span>
+
+        <span class="s1">System.out.println(arrLis.size())</span><span class="s0">;</span>
+        <span class="s1">arrLis.remove(</span><span class="s2">5</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(arrLis.size())</span><span class="s0">;</span>
+        <span class="s1">System.out.println(arrLis.indexOf(</span><span class="s2">1</span><span class="s1">))</span><span class="s0">;</span>
+        <span class="s1">System.out.println(arrLis.lastIndexOf(</span><span class="s2">1</span><span class="s1">))</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;End of checking MyArrayList class&quot;</span><span class="s1">)</span><span class="s0">;</span>
+
+        <span class="s4">// next all items are about MyLinkedList class only</span>
+
+        <span class="s1">MyLinkedList&lt;String&gt; string = </span><span class="s0">new </span><span class="s1">MyLinkedList&lt;&gt;()</span><span class="s0">;</span>
+        <span class="s1">string.add(</span><span class="s3">&quot;SE&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">string.add(</span><span class="s3">&quot;MT&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">string.add(</span><span class="s3">&quot;BDA&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">string.add(</span><span class="s3">&quot;DJ&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">string.add(</span><span class="s3">&quot;IT&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;First faculty: &quot;</span><span class="s1">+string.get(</span><span class="s2">1</span><span class="s1">))</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Faculties:&quot; </span><span class="s1">+ string.size())</span><span class="s0">;</span>
+
+        <span class="s1">string.remove(</span><span class="s2">1</span><span class="s1">)</span><span class="s0">;</span>
+
+       
+
+
+    <span class="s1">}</span>
+<span class="s1">}</span></pre>
+</body>
+</html>
